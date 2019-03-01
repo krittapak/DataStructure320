@@ -14,34 +14,37 @@ import java.util.Set;
  * @author KRITTAPAK
  */
 public class TestHashSet {
+
     public static void main(String[] args) {
-        Set<String> s=new HashSet<>();
+        Set<String> s = new HashSet<>();
         s.add("Cat");
         s.add("Dog");
         s.add("Bird");
         s.add("Duck");
-        
-        String x="Cat";
-        
+
+        String x = "Cat";
+
         System.out.println("Cat".hashCode());
         System.out.println(x.hashCode());
-        
+
         System.out.println(s.contains("Dog"));
     }
-    static void testHashCode(){
-        Set<NewStudent> st=new HashSet();
+
+    static void testHashCode() {
+        Set<NewStudent> st = new HashSet();
         st.add(new NewStudent(1001, "Somchai"));
         st.add(new NewStudent(1002, "SomSri"));
         st.add(new NewStudent(1003, "SomYing"));
-        NewStudent ns=new NewStudent(1002, "SomSri");
-        NewStudent ns2=new NewStudent(1002, "SomSri");
+        NewStudent ns = new NewStudent(1002, "SomSri");
+        NewStudent ns2 = new NewStudent(1002, "SomSri");
         System.out.println(ns.hashCode());
         System.out.println(ns2.hashCode());
         System.out.println(st.contains(ns));
     }
 }
 
-class NewStudent{
+class NewStudent {
+
     int id;
     String name;
 
@@ -67,9 +70,6 @@ class NewStudent{
         return true;
     }
 
-    
-    
-
     public NewStudent(int id, String name) {
         this.id = id;
         this.name = name;
@@ -82,7 +82,5 @@ class NewStudent{
     public void setId(int id) {
         this.id = id;
     }
-    
-    
 
 }
