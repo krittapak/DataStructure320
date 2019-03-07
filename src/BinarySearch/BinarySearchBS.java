@@ -20,7 +20,7 @@ public class BinarySearchBS {
         System.out.println("position: "+pos);
         
         pos = binarySearch(data,117);
-        System.out.println("found117@" +pos);
+        System.out.println("found117@" +pos) ;
     }
     
     private static int binarySearch(int[]data,int key){
