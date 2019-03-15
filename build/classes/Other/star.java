@@ -13,7 +13,7 @@ import java.util.Scanner;
  *
  * @author KRITTAPAK
  */
-public class star {
+public class Star {
 
     public static void main(String[] args) {
         System.out.println("Welcome to Calculated Weight on Star \n -------------------------------------");
