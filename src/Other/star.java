@@ -33,10 +33,16 @@ public class star {
 
             switch (starName.toLowerCase()) {
                 case "mercury":
-                    gc = 2.34;
+                    gc = 0.4;
                     break;
                 case "saturn":
-                    gc = 0.93;
+                    gc = 1.1;
+                    break;
+                    case "venus":
+                    gc = 0.9;
+                    break;
+                case "jupiter":
+                    gc = 2.5;
                     break;
             }
             double starMass;
