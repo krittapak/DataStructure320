@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Graph;
+package Recursive;
 
 /**
  *
@@ -12,7 +12,7 @@ package Graph;
 public class RecursionEample {
 
     public static void main(String[] args) {
-        int x = 3;
+        int x = 6;
         System.out.println("s(" + x + ")=" + sum(x));
         System.out.println(x + "!=" + fact(x));
         System.out.println("binary of 16 = " + getBinary(16));
